@@ -86,9 +86,6 @@ nav li {
 
 section {
     margin-top: 130px;
-    max-width: 1140px;
-    /* text-align: center; */
-    
     margin: 130 auto;
 }
 /* about section */
@@ -186,4 +183,23 @@ section {
     margin-top: 50px;
     text-align: center;
 
+}
+/* contact form section */
+
+.contact .section-title{
+    text-align: left;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact input,textarea{
+    margin-bottom: 24px;
+    padding: 18px, 30px;
+}
+
+.contact a{
+    text-decoration: none;
 }
