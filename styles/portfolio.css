@@ -83,6 +83,14 @@ nav li {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+section {
+    margin-top: 130px;
+    max-width: 1140px;
+    text-align: center;
+    
+    margin: 130 auto;
+}
 /* about section */
 
 .about-me {
@@ -96,8 +104,8 @@ nav li {
 }
 
 .section-title{
-    
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
 }
@@ -122,3 +130,35 @@ nav li {
     font-size: 20;
     color: #474747;
 }
+/* what I do styles */
+
+.what-i-do {
+    
+    
+}
+
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description{
+    color: #757575;
+}
+
+/* resume styles */
